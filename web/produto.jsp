@@ -1,6 +1,6 @@
 <%-- 
-    Document   : modelo
-    Created on : 26/04/2018, 20:18:25
+    Document   : produto
+    Created on : 26/04/2018, 22:13:52
     Author     : internet
 --%>
 
@@ -17,7 +17,7 @@
             <div class="main_container">
                 <%@include file="topmenu.jsp" %>
                 <%@include file="sidemenu.jsp" %>
-                <%@include file="content.jsp" %>
+                <%@include file="view/v_produto.jsp" %>
                 <%@include file="footer.jsp" %>
         </body>
     </html>

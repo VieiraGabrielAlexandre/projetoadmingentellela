@@ -1,6 +1,6 @@
 <%-- 
-    Document   : content
-    Created on : 26/04/2018, 20:18:06
+    Document   : v_fornecedor
+    Created on : 26/04/2018, 22:00:36
     Author     : internet
 --%>
 
@@ -11,7 +11,7 @@
           <div class="">
             <div class="page-title">
               <div class="title_left">
-                <h3>Plain Page</h3>
+                <h3>Menu Fornecedor</h3>
               </div>
 
               <div class="title_right">
@@ -32,7 +32,7 @@
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Plain Page</h2>
+                    <h2>Fornecedores</h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -51,7 +51,7 @@
                     <div class="clearfix"></div>
                   </div>
                   <div class="x_content">
-                      Add content to the page ...
+                      Conteudo
                   </div>
                 </div>
               </div>
@@ -59,4 +59,3 @@
           </div>
         </div>
         <!-- /page content -->
-        
