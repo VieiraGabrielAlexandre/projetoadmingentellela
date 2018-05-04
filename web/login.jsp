@@ -12,6 +12,9 @@
     <head>
         <%@include file="header.jsp"%>
     </head>
+    <%
+        session.setAttribute("usuario", "");
+    %>
     <body>
         <%@include file="view/v_login.jsp" %>
     </body>

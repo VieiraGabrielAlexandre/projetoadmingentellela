@@ -6,6 +6,16 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+<% 
+    try {
+    String user =(String)session.getAttribute("usuario");
+    if (user.equals("")){
+        response.sendRedirect("login.jsp");
+        } 
+    }catch (NullPointerException e){
+            response.sendRedirect("login.jsp");
+            }
+    %>
 <body class="nav-md">
     <div class="container body">
       <div class="main_container">
