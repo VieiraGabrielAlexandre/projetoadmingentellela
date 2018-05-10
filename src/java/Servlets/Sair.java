@@ -18,14 +18,32 @@ import javax.servlet.http.HttpSession;
  *
  * @author internet
  */
-@WebServlet(name = "Logar", urlPatterns = {"/Logar"})
-public class Logar extends HttpServlet {
+@WebServlet(name = "Sair", urlPatterns = {"/Sair"})
+public class Sair extends HttpServlet {
 
-   
+    /**
+     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
+     * methods.
+     *
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        
+        try (PrintWriter out = response.getWriter()) {
+            HttpSession session = request.getSession();
+            session.setAttribute("usuario", "");
+            response.sendRedirect("login.jsp");
+        }
+    }
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        doPost(request, response);
+        processRequest(request, response);
     }
 
     /**
@@ -39,25 +57,7 @@ public class Logar extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        try {
-            String login = request.getParameter("user");
-            String senha = request.getParameter("senha");
-            
-            HttpSession session = request.getSession();
-            
-            if (login.equals("teste") && senha.equals("1234")) {
-                response.sendRedirect("cliente.jsp");
-                session.setAttribute("usuario", login);
-                session.setMaxInactiveInterval(60 * 5);
-            }
-            else {
-                response.sendRedirect("login.jsp");
-                session.setAttribute("usuario", "");
-            }
-        }
-            catch (NullPointerException e){
-                    response.sendRedirect("login.jsp");
-                    }
+        processRequest(request, response);
     }
 
     /**

@@ -1,22 +1,11 @@
 <%-- 
-    Document   : footer
-    Created on : 26/04/2018, 20:18:18
+    Document   : scripts
+    Created on : 10/05/2018, 19:07:00
     Author     : internet
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<!-- footer content -->
-        <footer>
-          <div class="pull-right">
-            FullAdminVieira Framework by <a href="https://colorlib.com">Gabriel Vieira</a>
-          </div>
-          <div class="clearfix"></div>
-        </footer>
-        <!-- /footer content -->
-      </div>
-    </div>
-
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
     <!-- Bootstrap -->
