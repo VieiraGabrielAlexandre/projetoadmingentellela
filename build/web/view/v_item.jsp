@@ -104,52 +104,13 @@
 
                         <div class="col-md-5 col-sm-5 col-xs-12" style="border:0px solid #e5e5e5;">
 
-                            <h3 class="prod_title">LOWA Men?s Renegade GTX Mid Hiking Boots Review</h3>
+                            <h3 class="prod_title">God of War - Playstation 4</h3>
 
-                            <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.</p>
+                            <p>Jogo exclusivo para PS4.</p>
                             <br>
 
-                            <div class="">
-                                <h2>Available Colors</h2>
-                                <ul class="list-inline prod_color">
-                                    <li>
-                                        <p>Green</p>
-                                        <div class="color bg-green"></div>
-                                    </li>
-                                    <li>
-                                        <p>Blue</p>
-                                        <div class="color bg-blue"></div>
-                                    </li>
-                                    <li>
-                                        <p>Red</p>
-                                        <div class="color bg-red"></div>
-                                    </li>
-                                    <li>
-                                        <p>Orange</p>
-                                        <div class="color bg-orange"></div>
-                                    </li>
-
-                                </ul>
-                            </div>
-                            <br>
-
-                            <div class="">
-                                <h2>Size <small>Please select one</small></h2>
-                                <ul class="list-inline prod_size">
-                                    <li>
-                                        <button type="button" class="btn btn-default btn-xs">Small</button>
-                                    </li>
-                                    <li>
-                                        <button type="button" class="btn btn-default btn-xs">Medium</button>
-                                    </li>
-                                    <li>
-                                        <button type="button" class="btn btn-default btn-xs">Large</button>
-                                    </li>
-                                    <li>
-                                        <button type="button" class="btn btn-default btn-xs">Xtra-Large</button>
-                                    </li>
-                                </ul>
-                            </div>
+                            
+                            
                             <br>
 
                             <div class="">
@@ -164,8 +125,8 @@
                             </div>
 
                             <div class="">
-                                <button type="button" class="btn btn-default btn-lg">Add to Cart</button>
-                                <button type="button" class="btn btn-default btn-lg">Add to Wishlist</button>
+                                <button type="button" class="btn btn-default btn-lg">Adicionar no Carrinho</button>
+                                <button type="button" class="btn btn-default btn-lg">Comprar</button>
                             </div>
 
                             <div class="product_social">
@@ -188,26 +149,23 @@
 
                             <div class="" role="tabpanel" data-example-id="togglable-tabs">
                                 <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
-                                    <li role="presentation" class="active"><a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">Home</a>
+                                    <li role="presentation" class="active"><a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">Detalhes do produto</a>
                                     </li>
-                                    <li role="presentation" class=""><a href="#tab_content2" role="tab" id="profile-tab" data-toggle="tab" aria-expanded="false">Profile</a>
-                                    </li>
-                                    <li role="presentation" class=""><a href="#tab_content3" role="tab" id="profile-tab2" data-toggle="tab" aria-expanded="false">Profile</a>
-                                    </li>
+                                    
                                 </ul>
                                 <div id="myTabContent" class="tab-content">
                                     <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
-                                        <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher
-                                            synth. Cosby sweater eu banh mi, qui irure terr.</p>
+                                        <p> <strong>Produto Novo </strong><br>
+                                                Conteúdo exclusivo para quem comprar até o dia 19/04/18 - XP Boost e Grace Of The Wanderer Shield! É um novo começo para Kratos! <br>
+                                                O Santa Monica Studio e o diretor de criação Cory Barlog lançam um novo começo para um dos personagens mais conhecidos dos jogos. <br>
+                                                Vivendo como um homem, fora da sombra dos deuses, Kratos deve se adaptar a terras desconhecidas, ameaças inesperadas e a uma segunda oportunidade de ser pai. <br>
+                                                Junto ao seu filho, Atreus, os dois vão se aventurar pelas selvagens florestas nórdicas e lutar para cumprir uma missão profundamente pessoal. Recursos do Jogo; <br>
+                                                • Um novo começo ousado: sua vingança contra os deuses do Olimpo agora é passado e Kratos vive como um homem comum no reino dos monstros e deuses nórdicos. E é nesse mundo inóspito e implacável que ele precisa lutar para sobreviver... e ensinar seu filho a fazer o mesmo. Essa nova versão surpreendente de God of War desconstrói os principais elementos que definiram a série (combates gratificantes, proporção espetacular e uma narrativa poderosa), combinando-os de uma forma diferente.<br>
+                                                • Uma segunda oportunidade: Kratos é pai novamente. Assumindo o papel de mentor e protetor de seu filho, Atreus, que está determinado a conquistar seu respeito, Kratos é forçado a lidar e controlar a fúria que, por muito tempo, foi sua essência, e a explorar um mundo extremamente perigoso com seu filho. • Um mundo mais sombrio e elementar: desde as colunas de mármore de ornamentação do Olimpo até as florestas, montanhas e cavernas realistas do universo nórdico pré-viking, esse é um reino claramente novo com seu próprio panteão de criaturas, monstros e deuses. Com uma nova ênfase na descoberta e na exploração, esse mundo atrairá os jogadores para explorar cada centímetro do cenário surpreendentemente ameaçador de God of War, que é, sem dúvida, o maior da série. <br>
+                                                • Combates físicos violentos: com uma câmera livre e por cima do corpo que aproxima ainda mais o jogador da ação, as lutas de God of War refletem o panteão de criaturas nórdicas que Kratos enfrentará: grandiosas, realistas e exaustivas. <br>
+                                                Uma nova arma principal e novas habilidades mantêm o espírito que define God of War, além de apresentarem uma visão de conflitos violentos que criam uma nova base para o gênero.</p>
                                     </div>
-                                    <div role="tabpanel" class="tab-pane fade" id="tab_content2" aria-labelledby="profile-tab">
-                                        <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo
-                                            booth letterpress, commodo enim craft beer mlkshk aliquip</p>
-                                    </div>
-                                    <div role="tabpanel" class="tab-pane fade" id="tab_content3" aria-labelledby="profile-tab">
-                                        <p>xxFood truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui
-                                            photo booth letterpress, commodo enim craft beer mlkshk </p>
-                                    </div>
+                                    
                                 </div>
                             </div>
 

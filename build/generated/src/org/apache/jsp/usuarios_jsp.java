@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class modelo_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class usuarios_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -16,7 +16,7 @@ public final class modelo_jsp extends org.apache.jasper.runtime.HttpJspBase
     _jspx_dependants.add("/header.jsp");
     _jspx_dependants.add("/topmenu.jsp");
     _jspx_dependants.add("/sidemenu.jsp");
-    _jspx_dependants.add("/content.jsp");
+    _jspx_dependants.add("/view/v_cliente.jsp");
     _jspx_dependants.add("/footer.jsp");
   }
 
@@ -237,7 +237,7 @@ public final class modelo_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                <ul class=\"nav side-menu\">\n");
       out.write("                  <li><a><i class=\"fa fa-home\"></i>Cadastro<span class=\"fa fa-chevron-down\"></span></a>\n");
       out.write("                    <ul class=\"nav child_menu\">\n");
-      out.write("                      <li><a href=\"cliente.jsp\">Cliente</a></li>\n");
+      out.write("                      <li><a href=\"usuarios.jsp\">Usuarios</a></li>\n");
       out.write("                      <li><a href=\"fornecedor.jsp\">Fornecedor</a></li>\n");
       out.write("                      <li><a href=\"produto.jsp\">Produto</a></li>\n");
       out.write("                      <li><a href=\"item.jsp\">Item</a></li>\n");
@@ -246,6 +246,8 @@ public final class modelo_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                  <li><a><i class=\"fa fa-windows\"></i> Usuário <span class=\"fa fa-chevron-down\"></span></a>\n");
       out.write("                    <ul class=\"nav child_menu\">\n");
       out.write("                        <li><a href=\"./Logar\">Sair</a></li>\n");
+      out.write("                        <li><a href=\"./Logar\">Editar</a></li>\n");
+      out.write("                        <li><a href=\"./Logar\">Criar</a></li>\n");
       out.write("                    </ul>\n");
       out.write("                  </li>\n");
       out.write("                      \n");
@@ -279,12 +281,11 @@ public final class modelo_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("\n");
       out.write("<!DOCTYPE html>\n");
-      out.write(" <!-- page content -->\n");
-      out.write("        <div class=\"right_col\" role=\"main\">\n");
+      out.write("         <div class=\"right_col\" role=\"main\">\n");
       out.write("          <div class=\"\">\n");
       out.write("            <div class=\"page-title\">\n");
       out.write("              <div class=\"title_left\">\n");
-      out.write("                <h3>Plain Page</h3>\n");
+      out.write("                <h3>Users <small>Some examples to get you started</small></h3>\n");
       out.write("              </div>\n");
       out.write("\n");
       out.write("              <div class=\"title_right\">\n");
@@ -305,7 +306,7 @@ public final class modelo_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("              <div class=\"col-md-12 col-sm-12 col-xs-12\">\n");
       out.write("                <div class=\"x_panel\">\n");
       out.write("                  <div class=\"x_title\">\n");
-      out.write("                    <h2>Plain Page</h2>\n");
+      out.write("                    <h2>Usuarios cadastrados. <small>Usuarios</small></h2>\n");
       out.write("                    <ul class=\"nav navbar-right panel_toolbox\">\n");
       out.write("                      <li><a class=\"collapse-link\"><i class=\"fa fa-chevron-up\"></i></a>\n");
       out.write("                      </li>\n");
@@ -324,15 +325,51 @@ public final class modelo_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    <div class=\"clearfix\"></div>\n");
       out.write("                  </div>\n");
       out.write("                  <div class=\"x_content\">\n");
-      out.write("                      Add content to the page ...\n");
+      out.write("                    <p class=\"text-muted font-13 m-b-30\">\n");
+      out.write("                      Lista de usuários cadastrados no sistema.\n");
+      out.write("                    </p>\n");
+      out.write("                    <table id=\"datatable\" class=\"table table-striped table-bordered\">\n");
+      out.write("                      <thead>\n");
+      out.write("                        <tr>\n");
+      out.write("                          <th>Nome Completo</th>\n");
+      out.write("                          <th>Login</th>\n");
+      out.write("                          <th>CPF</th>\n");
+      out.write("                          <th>E-mail</th>\n");
+      out.write("                          <th>Senha</th>\n");
+      out.write("                          <th>ID</th>\n");
+      out.write("                        </tr>\n");
+      out.write("                      </thead>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("                      <tbody>\n");
+      out.write("                        <tr>\n");
+      out.write("                          <td>Tiger Nixon</td>\n");
+      out.write("                          <td>TIG</td>\n");
+      out.write("                          <td>11111111</td>\n");
+      out.write("                          <td>gsa@gha.com</td>\n");
+      out.write("                          <td>1234156</td>\n");
+      out.write("                          <td>1</td>\n");
+      out.write("                        </tr>\n");
+      out.write("                        \n");
+      out.write("                      </tbody>\n");
+      out.write("                    </table>\n");
+      out.write("                  </div>\n");
+      out.write("                </div>\n");
+      out.write("              </div>\n");
+      out.write("\n");
+      out.write("              \n");
+      out.write("                        </tr>\n");
+      out.write("                      </tbody>\n");
+      out.write("                    </table>\n");
+      out.write("\t\t\t\t\t\n");
+      out.write("\t\t\t\t\t\n");
       out.write("                  </div>\n");
       out.write("                </div>\n");
       out.write("              </div>\n");
       out.write("            </div>\n");
       out.write("          </div>\n");
       out.write("        </div>\n");
-      out.write("        <!-- /page content -->\n");
-      out.write("        ");
+      out.write("        <!-- /page content -->");
       out.write("\n");
       out.write("                ");
       out.write("\n");
@@ -363,7 +400,7 @@ public final class modelo_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <script src=\"js/custom.min.js\"></script>");
       out.write("\n");
       out.write("        </body>\n");
-      out.write("    </html>\n");
+      out.write("    </html>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;

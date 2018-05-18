@@ -240,6 +240,7 @@ public final class produto_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                      <li><a href=\"cliente.jsp\">Cliente</a></li>\n");
       out.write("                      <li><a href=\"fornecedor.jsp\">Fornecedor</a></li>\n");
       out.write("                      <li><a href=\"produto.jsp\">Produto</a></li>\n");
+      out.write("                      <li><a href=\"item.jsp\">Item</a></li>\n");
       out.write("                    </ul>\n");
       out.write("                  </li>\n");
       out.write("                  <li><a><i class=\"fa fa-windows\"></i> Usuário <span class=\"fa fa-chevron-down\"></span></a>\n");

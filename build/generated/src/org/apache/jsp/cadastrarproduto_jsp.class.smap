@@ -1,18 +1,18 @@
 SMAP
-modelo_jsp.java
+cadastrarproduto_jsp.java
 JSP
 *S JSP
 *F
-+ 0 modelo.jsp
-modelo.jsp
++ 0 cadastrarproduto.jsp
+cadastrarproduto.jsp
 + 1 header.jsp
 header.jsp
 + 2 topmenu.jsp
 topmenu.jsp
 + 3 sidemenu.jsp
 sidemenu.jsp
-+ 4 content.jsp
-content.jsp
++ 4 v_cadproduto.jsp
+view/v_cadproduto.jsp
 + 5 footer.jsp
 footer.jsp
 *L
@@ -22,10 +22,10 @@ footer.jsp
 5#2,101:89
 18#0,2:190
 5#3,14:192
-18,70:206
-19#0,2:276
-5#4,58:278
-20#0,2:336
-5#5,26:338
-21#0,4:364
+18,72:206
+19#0,2:278
+5#4,139:280
+20#0,2:418
+5#5,26:420
+21#0,3:446
 *E

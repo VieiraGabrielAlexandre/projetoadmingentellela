@@ -49,15 +49,17 @@
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-home"></i>Cadastro<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="cliente.jsp">Cliente</a></li>
+                      <li><a href="usuarios.jsp">Usuarios</a></li>
                       <li><a href="fornecedor.jsp">Fornecedor</a></li>
                       <li><a href="produto.jsp">Produto</a></li>
-                      <li><a href="item.jsp">Item</a></li>
+                      <li><a href="item.jsp">Jogo destaque da Semana</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-windows"></i> Usuário <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                         <li><a href="./Logar">Sair</a></li>
+                        <li><a href="./Logar">Editar</a></li>
+                        <li><a href="./Logar">Criar</a></li>
                     </ul>
                   </li>
                       
