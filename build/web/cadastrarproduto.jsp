@@ -8,10 +8,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <%@include file="header.jsp"%>
     </head>
     <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
+
+    <body class="nav-md">
+        <div class="container body">
+            <div class="main_container">
+                <%@include file="topmenu.jsp" %>
+                <%@include file="sidemenu.jsp" %>
+                <%@include file="view/v_cadprod.jsp" %>
+                <%@include file="footer.jsp" %>
+        </body>
+    </html>

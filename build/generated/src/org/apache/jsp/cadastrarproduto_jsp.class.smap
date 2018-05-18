@@ -11,8 +11,8 @@ header.jsp
 topmenu.jsp
 + 3 sidemenu.jsp
 sidemenu.jsp
-+ 4 v_cadproduto.jsp
-view/v_cadproduto.jsp
++ 4 v_cadprod.jsp
+view/v_cadprod.jsp
 + 5 footer.jsp
 footer.jsp
 *L
@@ -24,8 +24,8 @@ footer.jsp
 5#3,14:192
 18,72:206
 19#0,2:278
-5#4,139:280
-20#0,2:418
-5#5,26:420
-21#0,3:446
+5#4,55:280
+20#0,2:334
+5#5,26:336
+21#0,3:362
 *E

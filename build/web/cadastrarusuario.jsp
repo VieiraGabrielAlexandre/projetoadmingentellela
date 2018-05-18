@@ -1,6 +1,6 @@
 <%-- 
-    Document   : adicionarproduto
-    Created on : 17/05/2018, 20:57:23
+    Document   : cadastrarusuario.jsp
+    Created on : 17/05/2018, 21:55:24
     Author     : internet
 --%>
 
@@ -17,7 +17,8 @@
             <div class="main_container">
                 <%@include file="topmenu.jsp" %>
                 <%@include file="sidemenu.jsp" %>
-                <%@include file="view/v_cadprod.jsp" %>
+                <%@include file="view/v_cadusuario.jsp" %>
                 <%@include file="footer.jsp" %>
         </body>
     </html>
+

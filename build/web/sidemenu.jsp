@@ -59,7 +59,7 @@
                     <ul class="nav child_menu">
                         <li><a href="./Logar">Sair</a></li>
                         <li><a href="./Logar">Editar</a></li>
-                        <li><a href="./Logar">Criar</a></li>
+                        <li><a href="cadastrarusuario.jsp">Criar</a></li>
                     </ul>
                   </li>
                       
