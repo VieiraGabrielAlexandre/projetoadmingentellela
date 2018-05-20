@@ -31,7 +31,7 @@
 
               <div class="separator">
                 <p class="change_link">Novo no site?
-                  <a href="cadastrarusuario.jsp" class="to_register"> Crie sua conta</a>
+                  <a href="cadastrareditar.jsp" class="to_register"> Crie sua conta</a>
                 </p>
 
                 <div class="clearfix"></div>

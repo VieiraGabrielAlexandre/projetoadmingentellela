@@ -58,8 +58,8 @@
                   <li><a><i class="fa fa-windows"></i> Usuário <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                         <li><a href="./Logar">Sair</a></li>
-                        <li><a href="./Logar">Editar</a></li>
-                        <li><a href="cadastrarusuario.jsp">Criar</a></li>
+                        <li><a href="cadastrareditar.jsp">Editar</a></li>
+                        <li><a href="cadastrareditar.jsp">Criar</a></li>
                     </ul>
                   </li>
                       
